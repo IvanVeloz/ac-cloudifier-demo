@@ -1,7 +1,11 @@
 /*   Copyright (c) 2021, Q-engineering. All rights Reserved
  *   SPDX-License-Identifier: BSD-3-Clause
- *   Obtained from: https://github.com/Qengineering/Libcamera-OpenCV-RPi-Bullseye-64OS/blob/main/main.cpp
+ *
+ *   This code block was based on content at 
+ *   https://github.com/Qengineering/Libcamera-OpenCV-RPi-Bullseye-64OS/blob/main/main.cpp
+ *   with modifications to format it as a header file. 
  */
+
 /*
  * BSD 3-Clause License
  * 
