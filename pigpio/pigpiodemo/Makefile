@@ -1,5 +1,5 @@
-CFLAGS = -Wall -Wextra -pthread -g
-LDFLAGS = -lpigpiod_if2 -lrt
+CFLAGS += -Wall -Wextra -pthread -g
+LDFLAGS += -lpigpiod_if2 -lrt
 
 SOURCES = pigpiodemo.c
 OBJS = $(SOURCES:.c=.o)
