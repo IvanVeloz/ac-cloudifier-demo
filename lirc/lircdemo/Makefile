@@ -1,5 +1,5 @@
-CFLAGS = -Wall -Wextra -g
-LDFLAGS = -llirc_client
+CFLAGS += -Wall -Wextra -g
+LDFLAGS += -llirc_client
 
 SOURCES = lircdemo.c
 OBJS = $(SOURCES:.c=.o)
