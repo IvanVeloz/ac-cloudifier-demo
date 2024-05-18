@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+!lircd.conf.d
 
 # Object files
 *.o
