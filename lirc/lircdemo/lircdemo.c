@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <errno.h>
-#include "lirc_client.h"
+#include <lirc_client.h>
 
 int main()
 {
