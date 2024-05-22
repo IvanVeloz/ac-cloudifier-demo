@@ -15,9 +15,10 @@ int main()
     //reset frame average
     std::string pipeline = gstreamer_pipeline(capture_width, capture_height, framerate,
                                               display_width, display_height);
-    std::cout << "Using pipeline: \n\t" << pipeline << "\n\n\n";
+    //std::cout << "Using pipeline: \n\t" << pipeline << "\n\n\n";
 
-	cv::VideoCapture cap(pipeline, cv::CAP_GSTREAMER);
+	//cv::VideoCapture cap(pipeline, cv::CAP_GSTREAMER);
+	cv::VideoCapture cap(0);
 	if(!cap.isOpened()) {
 		std::cerr << "Unable to open camera!\n";
 		return -1;
