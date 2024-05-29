@@ -6,11 +6,11 @@
 int main()
 {
     //pipeline parameters
-    int capture_width = 640; //1280 ;
-    int capture_height = 480; //720 ;
-    int framerate = 15 ;
-    int display_width = 640; //1280 ;
-    int display_height = 480; //720 ;
+    int capture_width = 2304;
+    int capture_height = 1296;
+    int framerate = 56 ;
+    int display_width = 2304;
+    int display_height = 1296;
 
     //reset frame average
     std::string pipeline = gstreamer_pipeline(capture_width, capture_height, framerate,
